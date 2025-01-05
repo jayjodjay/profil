@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Twinkle Star", serif;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image: url(https://preview.redd.it/i-made-seasonal-stardew-valley-wallpapers-that-change-v0-ost5y3bkyx6e1.gif?width=640&crop=smart&auto=webp&s=db5f4d55f5eaae82ab134362ea21c8017b7bcaae);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+   position: fixed;
+   right: 0;
+   top: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 33px 9%;
+   background: transparent;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+    transition: scale .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navlist:hover{
+    scale: 1.4;
+}
+
+.navlist a{
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all.55s;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action_btn{
+    color:rgb(75, 75, 75);
+    background-color: rgba(66, 179, 245, 0.664);
+    padding: 0.9rem 1rem;
+    border: none;
+    font-size: 0.8rem;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: scale .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.action_btn:hover{
+    scale: 1.4;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action_btn:active{
+    scale: 0.95;
+}
+
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%); */
+    background: #2d4346a6;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-img img{
+    width: 400px;
+    height: auto;
+    margin-top: -15vh
+}
+
+main{
+    padding: 0 19%;
+}
+
+.hero-taxt h1{
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+    
+}
+
+.hero-taxt h3{
+    font-size: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-taxt a{
+    display: inline-block;
+    color: white;
+    background: #292a8c;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-taxt a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+
+}
+
+.hero-taxt a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+
+}
+
+.hero-taxt a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
